@@ -1,0 +1,32 @@
+<Div class="main">
+<div class="header">
+ <mat-card>StockNote App</mat-card>
+</div>
+
+<div  class="flex-container">
+  
+ <div> </div>
+ 
+ <mat-card class="container">
+
+    <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="User Name"></textarea>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="Password"></textarea>
+      </mat-form-field>
+     
+     <div class="flex1">
+        <button center mat-button> 
+            <a routerLink="/home">Login</a>
+        </button>
+        <button center mat-button> Forgot Password </button>
+     </div>
+
+ </mat-card>
+ <div>
+ </div>
+</div>
+<router-outlet></router-outlet>
+</Div>

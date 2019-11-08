@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+   justify-content: center;
+  }
+  .flex-container > div {
+   width : 100%;
+  }
+  .example-full-width{
+      width: 100%;
+  }
+  button{
+    align-items: center;
+  }
+
+  .flex1{
+    justify-content: space-between;
+  }
+  .container{
+      background-color:whitesmoke;
+      padding: 10%;
+  }
+  .header{
+    align-content: center;  
+  }
+  .header{
+      padding: 10%;
+      align-items: center;
+      text-align: center;
+  }
